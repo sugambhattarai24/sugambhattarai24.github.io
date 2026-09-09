@@ -298,4 +298,42 @@ footer {
         padding-top: 60px;
     }
 }
+/* ====================================================== */
+/* PROJECT IMAGE GALLERY FIX */
+/* ====================================================== */
+
+.featured-drawing,
+.drawing-card {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.featured-drawing a,
+.drawing-card a {
+    display: block;
+    width: 100%;
+}
+
+.featured-drawing img,
+.drawing-card img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.drawing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .drawing-grid {
+        grid-template-columns: 1fr;
+    }
+}
 
