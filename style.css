@@ -336,4 +336,31 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* ====================================================== */
+/* DAQ PROJECT PAGE */
+/* ====================================================== */
 
+.flow-grid,
+.result-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.flow-card,
+.result-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.flow-card h3,
+.result-card h3 {
+    margin-bottom: 10px;
+}
+
+.flow-card p,
+.result-card p {
+    color: #64748b;
+}
