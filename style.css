@@ -596,3 +596,9 @@ nav {
     }
 
 }
+.project-thumbnail {
+    border-bottom: 1px solid #e5e7eb;
+}
+.project-thumbnail-link {
+    margin-bottom: 18px;
+}
