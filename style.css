@@ -432,3 +432,66 @@ footer {
     }
 
 }
+/* ====================================================== */
+/* EXPERIENCE PAGE */
+/* ====================================================== */
+
+.experience-detail {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 28px;
+    margin-bottom: 26px;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+    margin-bottom: 16px;
+}
+
+.experience-header h2 {
+    margin-bottom: 3px;
+    font-size: 1.35rem;
+}
+
+.experience-organization {
+    font-weight: 600;
+    color: #475569;
+}
+
+.experience-location {
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+.experience-date {
+    white-space: nowrap;
+    font-weight: 600;
+    color: #475569;
+}
+
+.experience-list {
+    padding-left: 22px;
+    margin-bottom: 18px;
+}
+
+.experience-list li {
+    margin-bottom: 7px;
+    color: #475569;
+}
+
+@media (max-width: 700px) {
+
+    .experience-header {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .experience-date {
+        white-space: normal;
+    }
+
+}
