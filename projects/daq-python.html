@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Automated circuit analysis project using LabVIEW, NI USB-6003, and Python by Sugam Bhattarai.">
+
+    <title>Automated Circuit Analysis Using DAQ & Python | Sugam Bhattarai</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">
+        <a href="../index.html">Sugam Bhattarai</a>
+    </div>
+
+    <ul>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<header class="project-hero">
+    <div class="project-container">
+
+        <p class="project-label">
+            Instrumentation • LabVIEW • Python
+        </p>
+
+        <h1>
+            Automated Circuit Analysis Using DAQ & Python
+        </h1>
+
+        <p class="project-subtitle">
+            A project focused on automating current-voltage measurements
+            for resistors and LEDs using LabVIEW, an NI USB-6003
+            data-acquisition device, and Python-based analysis.
+        </p>
+
+        <div class="project-meta">
+            <span>Aug. 2025 – Dec. 2025</span>
+            <span>LabVIEW</span>
+            <span>NI USB-6003</span>
+            <span>Python</span>
+        </div>
+
+    </div>
+</header>
+
+<section>
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Project Overview
+        </h2>
+
+        <p>
+            This project was developed to replace slow manual
+            digital-multimeter measurements with an automated
+            current-voltage testing workflow. Using LabVIEW and
+            an NI USB-6003 data-acquisition device, I created a
+            system that performed voltage sweeps, collected
+            electrical data, and supported automated analysis
+            in Python.
+        </p>
+
+        <br>
+
+        <p>
+            The system was used to characterize Ohmic resistors
+            and non-Ohmic red, blue, green, and infrared LEDs.
+            This project generated more than 45 datasets across
+            multiple resistance values and diode trials.
+        </p>
+
+    </div>
+</section>
+
+<section class="projects">
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Project Goal
+        </h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Why Automation?</h3>
+                <p>
+                    Manual DMM measurements were time-consuming and made it
+                    difficult to collect large, repeatable datasets.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>What Was Built?</h3>
+                <p>
+                    An automated LabVIEW-based measurement system using
+                    NI USB-6003 hardware for voltage sweeps and data collection.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>What Was Measured?</h3>
+                <p>
+                    Current-voltage behavior of resistors and multiple LEDs,
+                    followed by analysis in Python.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="project-container">
+
+        <h2 class="section-title">
+            System Workflow
+        </h2>
+
+        <div class="flow-grid">
+
+            <div class="flow-card">
+                <h3>1. Set Voltage Sweep</h3>
+                <p>
+                    Define the start voltage, end voltage, step size,
+                    and measurement delay in LabVIEW.
+                </p>
+            </div>
+
+            <div class="flow-card">
+                <h3>2. Apply Voltage</h3>
+                <p>
+                    Use the NI USB-6003 to apply a sequence of voltages
+                    to the device under test.
+                </p>
+            </div>
+
+            <div class="flow-card">
+                <h3>3. Measure Response</h3>
+                <p>
+                    Acquire voltage and current measurements for the
+                    resistor or LED during the sweep.
+                </p>
+            </div>
+
+            <div class="flow-card">
+                <h3>4. Analyze Data</h3>
+                <p>
+                    Process datasets in Python using pandas,
+                    matplotlib, and SciPy for plotting and interpretation.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="projects">
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Hardware & Software
+        </h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <h3>Hardware</h3>
+                <p>
+                    NI USB-6003, breadboard circuits, multimeters,
+                    power supply, resistor decade box, and LEDs.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Software</h3>
+                <p>
+                    LabVIEW for automation and DAQ control,
+                    Python for data analysis, plotting, and comparison.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Experimental Scope</h3>
+                <p>
+                    15 resistance values, multiple LED types,
+                    and repeated trials to examine repeatability
+                    and device behavior.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Key Results
+        </h2>
+
+        <div class="result-grid">
+
+            <div class="result-card">
+                <h3>45+ Datasets</h3>
+                <p>
+                    Generated high-resolution datasets across resistor
+                    and LED experiments.
+                </p>
+            </div>
+
+            <div class="result-card">
+                <h3>15 Resistance Values</h3>
+                <p>
+                    Automated characterization performed across a wide
+                    range of resistor values.
+                </p>
+            </div>
+
+            <div class="result-card">
+                <h3>R² > 0.99</h3>
+                <p>
+                    Resistor current-voltage curves showed strong
+                    linear agreement during analysis.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="projects">
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Project Gallery
+        </h2>
+
+        <p class="gallery-intro">
+            The images below show the transition from manual measurements
+            to automated data acquisition, the LabVIEW implementation,
+            and representative experimental results.
+        </p>
+
+        <div class="drawing-grid">
+
+            <figure class="drawing-card">
+                <a href="../images/daq/manual-measurement-setup.png" target="_blank">
+                    <img src="../images/daq/manual-measurement-setup.png"
+                         alt="Manual electrical measurement setup with multimeters and power supply"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>Manual Measurement Setup</h3>
+                    <p>
+                        Original measurement approach using multimeters,
+                        a power supply, and breadboard circuit testing.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="drawing-card">
+                <a href="../images/daq/daq-led-setup.png" target="_blank">
+                    <img src="../images/daq/daq-led-setup.png"
+                         alt="DAQ setup for LED testing using NI USB-6003 and breadboard"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>DAQ LED Test Setup</h3>
+                    <p>
+                        Automated measurement setup for LED testing
+                        using the NI USB-6003 and breadboard circuit.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="drawing-card">
+                <a href="../images/daq/daq-resistor-setup.png" target="_blank">
+                    <img src="../images/daq/daq-resistor-setup.png"
+                         alt="DAQ resistor setup using decade resistance box and NI USB-6003"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>DAQ Resistor Test Setup</h3>
+                    <p>
+                        Experimental setup used to characterize resistor
+                        behavior across multiple resistance values.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="drawing-card">
+                <a href="../images/daq/labview-block-diagram.png" target="_blank">
+                    <img src="../images/daq/labview-block-diagram.png"
+                         alt="LabVIEW block diagram for automated circuit analysis"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>LabVIEW Block Diagram</h3>
+                    <p>
+                        Block-diagram implementation used to define
+                        the voltage sweep, acquire data, and build arrays.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="drawing-card">
+                <a href="../images/daq/labview-front-panel.png" target="_blank">
+                    <img src="../images/daq/labview-front-panel.png"
+                         alt="LabVIEW front panel for DAQ-based circuit measurement"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>LabVIEW Front Panel</h3>
+                    <p>
+                        Front-panel interface showing input controls
+                        and live current-voltage graph output.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="drawing-card">
+                <a href="../images/daq/all-led-iv-plot.png" target="_blank">
+                    <img src="../images/daq/all-led-iv-plot.png"
+                         alt="Raw current-voltage data points for multiple LEDs"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>All LED I–V Data</h3>
+                    <p>
+                        Raw current-voltage data comparing blue, red,
+                        green, and infrared LED behavior.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="drawing-card">
+                <a href="../images/daq/blue-led-trials.png" target="_blank">
+                    <img src="../images/daq/blue-led-trials.png"
+                         alt="Blue LED three trial current-voltage plot"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>Blue LED Repeatability</h3>
+                    <p>
+                        Repeated blue LED trials showing consistent
+                        turn-on behavior and measurement repeatability.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="drawing-card">
+                <a href="../images/daq/resistor-iv-region.png" target="_blank">
+                    <img src="../images/daq/resistor-iv-region.png"
+                         alt="Straight-line region of resistor IV curves"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>Resistor I–V Behavior</h3>
+                    <p>
+                        Linear current-voltage behavior across multiple
+                        resistor values in the straight-line region.
+                    </p>
+                </figcaption>
+            </figure>
+
+            <figure class="drawing-card">
+                <a href="../images/daq/measured-vs-nominal-resistance.png" target="_blank">
+                    <img src="../images/daq/measured-vs-nominal-resistance.png"
+                         alt="Measured versus nominal resistance log-log plot"
+                         loading="lazy">
+                </a>
+                <figcaption>
+                    <h3>Measured vs Nominal Resistance</h3>
+                    <p>
+                        Comparison of measured resistance values against
+                        nominal values using a log-log plot.
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
+
+        <p class="gallery-note">
+            Select any image to view the full-resolution version.
+        </p>
+
+    </div>
+</section>
+
+<section>
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Skills Demonstrated
+        </h2>
+
+        <div class="skill-tags">
+            <span>LabVIEW</span>
+            <span>NI-DAQ</span>
+            <span>NI USB-6003</span>
+            <span>Python</span>
+            <span>pandas</span>
+            <span>matplotlib</span>
+            <span>SciPy</span>
+            <span>Data Acquisition</span>
+            <span>Instrumentation</span>
+            <span>Circuit Testing</span>
+            <span>Experimental Design</span>
+            <span>Data Analysis</span>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="project-container">
+        <a class="button" href="../index.html#projects">
+            ← Back to Projects
+        </a>
+    </div>
+</section>
+
+<footer>
+    © 2026 Sugam Bhattarai
+</footer>
+
+</body>
+</html>
