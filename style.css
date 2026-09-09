@@ -197,3 +197,104 @@ footer {
         min-height: 65vh;
     }
 }
+/* ====================================================== */
+/* PROJECT PAGE */
+/* ====================================================== */
+
+.project-hero {
+    padding: 90px 10% 70px;
+    background: #f8fafc;
+    min-height: auto;
+}
+
+.project-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-label {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #64748b;
+    margin-bottom: 12px;
+}
+
+.project-hero h1 {
+    font-size: 3rem;
+    line-height: 1.15;
+    margin-bottom: 18px;
+}
+
+.project-subtitle {
+    max-width: 800px;
+    font-size: 1.15rem;
+    color: #475569;
+    margin-bottom: 22px;
+}
+
+.project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.project-meta span {
+    border: 1px solid #cbd5e1;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    background: white;
+}
+
+.project-list {
+    margin-top: 18px;
+    padding-left: 22px;
+}
+
+.project-list li {
+    margin-bottom: 8px;
+}
+
+.gallery-placeholder {
+    margin-top: 25px;
+    min-height: 280px;
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+    background: #f8fafc;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tags span {
+    padding: 8px 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 20px;
+    background: white;
+    font-size: 0.9rem;
+}
+
+.logo a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+
+    .project-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .project-hero {
+        padding-top: 60px;
+    }
+}
