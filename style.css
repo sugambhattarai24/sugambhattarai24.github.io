@@ -558,10 +558,11 @@ nav {
     box-shadow: 0 1px 8px rgba(15, 23, 42, 0.04);
 }
 
+/* ====================================================== */
+/* TABLET & MOBILE NAVIGATION */
+/* ====================================================== */
 
-/* MOBILE NAVIGATION */
-
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 
     nav {
         flex-direction: column;
@@ -581,6 +582,15 @@ nav {
         font-size: 0.9rem;
     }
 
+}
+
+
+/* ====================================================== */
+/* MOBILE CONTENT */
+/* ====================================================== */
+
+@media (max-width: 700px) {
+
     .hero {
         padding-left: 7%;
         padding-right: 7%;
@@ -595,10 +605,4 @@ nav {
         height: 190px;
     }
 
-}
-.project-thumbnail {
-    border-bottom: 1px solid #e5e7eb;
-}
-.project-thumbnail-link {
-    margin-bottom: 18px;
 }
