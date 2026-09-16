@@ -1,1 +1,701 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Thermal conductivity experiment comparing copper, aluminum, and stainless steel using infrared imaging, digital thermometry, and Python analysis by Sugam Bhattarai.">
+
+    <title>
+        Thermal Conductivity Comparison | Sugam Bhattarai
+    </title>
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+
+<!-- ====================================================== -->
+<!-- NAVIGATION -->
+<!-- ====================================================== -->
+
+<nav>
+
+    <div class="logo">
+        <a href="../index.html">Sugam Bhattarai</a>
+    </div>
+
+    <ul>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="../experience.html">Experience</a></li>
+        <li><a href="../achievements.html">Achievements</a></li>
+        <li><a href="../resume.html">Resume</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<!-- ====================================================== -->
+<!-- HERO -->
+<!-- ====================================================== -->
+
+<header class="project-hero">
+
+    <div class="project-container">
+
+        <p class="project-label">
+            Thermal Testing • Instrumentation • Python • Data Analysis
+        </p>
+
+        <h1>
+            Thermal Conductivity Comparison Using Infrared Imaging
+            & Digital Thermometry
+        </h1>
+
+        <p class="project-subtitle">
+            Experimental comparison of the heating behavior of copper,
+            aluminum, and stainless steel using infrared thermography,
+            contact temperature measurements, and Python-based analysis.
+        </p>
+
+        <div class="project-meta">
+            <span>Dec. 2025</span>
+            <span>Infrared Thermography</span>
+            <span>Python</span>
+            <span>Linear Regression</span>
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ====================================================== -->
+<!-- PROJECT OVERVIEW -->
+<!-- ====================================================== -->
+
+<section>
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Project Overview
+        </h2>
+
+        <p>
+            This experiment investigated differences in heat-transfer
+            behavior among copper, aluminum, and stainless-steel rods.
+            Each material was heated under similar experimental conditions
+            while temperature changes were recorded using both a
+            Fluke Ti10 infrared camera and a contact digital thermometer.
+        </p>
+
+        <br>
+
+        <p>
+            The measurements were analyzed using Python to compare
+            temperature-versus-time behavior, determine heating rates,
+            evaluate infrared measurement error, and investigate the
+            effects of material emissivity and experimental geometry.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- EXPERIMENTAL OBJECTIVES -->
+<!-- ====================================================== -->
+
+<section class="projects">
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Experimental Objectives
+        </h2>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <h3>
+                    Compare Materials
+                </h3>
+
+                <p>
+                    Compare the heating behavior of copper, aluminum,
+                    and stainless steel under controlled heating conditions.
+                </p>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>
+                    Compare Instruments
+                </h3>
+
+                <p>
+                    Evaluate non-contact infrared measurements against
+                    direct-contact digital thermometer readings.
+                </p>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>
+                    Analyze Measurement Error
+                </h3>
+
+                <p>
+                    Examine how emissivity, surface properties, and
+                    target size influence infrared temperature accuracy.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- EXPERIMENTAL SETUP -->
+<!-- ====================================================== -->
+
+<section>
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Experimental Setup
+        </h2>
+
+        <p>
+            Copper, aluminum, and stainless-steel rods were mounted
+            using laboratory stands and clamps. A soldering iron was
+            used as the heat source while temperature measurements
+            were collected at timed intervals.
+        </p>
+
+        <br>
+
+        <p>
+            A Fluke Ti10 infrared camera provided non-contact surface
+            temperature measurements while a contact thermometer
+            provided reference measurements. A white background was
+            positioned behind the rods to improve thermal-image
+            visibility and measurement consistency.
+        </p>
+
+        <br>
+
+        <figure class="drawing-card">
+
+            <a href="../images/thermal/thermal-test-setup.jpg"
+               target="_blank">
+
+                <img src="../images/thermal/thermal-test-setup.jpg"
+                     alt="Thermal conductivity experimental setup with infrared camera and digital thermometer"
+                     loading="lazy">
+
+            </a>
+
+            <figcaption>
+
+                <h3>
+                    Thermal Measurement Setup
+                </h3>
+
+                <p>
+                    Laboratory setup using a Fluke Ti10 infrared camera,
+                    contact thermometer, metal rods, support stands,
+                    and controlled heating.
+                </p>
+
+            </figcaption>
+
+        </figure>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- DATA ANALYSIS -->
+<!-- ====================================================== -->
+
+<section class="projects">
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Python Data Analysis
+        </h2>
+
+        <p>
+            Temperature measurements were processed in Python and
+            linear regression was applied to temperature-versus-time
+            data to estimate the heating rate of each material.
+        </p>
+
+        <br>
+
+        <p>
+            The experimentally determined digital-thermometer heating
+            rates were approximately 0.780 °C/s for copper,
+            0.873 °C/s for aluminum, and 0.367 °C/s for stainless steel.
+            Copper and aluminum therefore showed substantially faster
+            temperature increases than stainless steel.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- KEY RESULTS -->
+<!-- ====================================================== -->
+
+<section>
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Key Results
+        </h2>
+
+        <div class="result-grid">
+
+            <div class="result-card">
+
+                <h3>
+                    0.780 °C/s
+                </h3>
+
+                <p>
+                    Measured heating rate for the copper rod based on
+                    linear regression of contact-temperature data.
+                </p>
+
+            </div>
+
+
+            <div class="result-card">
+
+                <h3>
+                    0.873 °C/s
+                </h3>
+
+                <p>
+                    Measured heating rate for the aluminum rod during
+                    the experimental heating period.
+                </p>
+
+            </div>
+
+
+            <div class="result-card">
+
+                <h3>
+                    0.367 °C/s
+                </h3>
+
+                <p>
+                    Stainless steel showed a substantially lower
+                    heating rate than copper and aluminum.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- MEASUREMENT ERROR -->
+<!-- ====================================================== -->
+
+<section class="projects">
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Infrared Measurement Error
+        </h2>
+
+        <p>
+            The infrared camera increasingly underestimated temperature
+            as the metallic rods became hotter. The effect was strongest
+            for aluminum and copper and smaller for stainless steel.
+        </p>
+
+        <br>
+
+        <p>
+            Average infrared measurement errors were approximately
+            −10.92 °C for copper, −15.30 °C for aluminum, and
+            −5.42 °C for stainless steel.
+        </p>
+
+        <br>
+
+        <p>
+            The results highlighted an important limitation of infrared
+            thermography: polished metallic surfaces can have low
+            emissivity and reflect surrounding infrared radiation,
+            reducing the accuracy of non-contact temperature measurements.
+            The small rod diameter also limited the number of image pixels
+            representing the measured surface.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- PROJECT GALLERY -->
+<!-- ====================================================== -->
+
+<section>
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Project Gallery
+        </h2>
+
+        <p class="gallery-intro">
+            Experimental setup, infrared images, and representative
+            Python-generated plots from the thermal analysis.
+        </p>
+
+        <div class="drawing-grid">
+
+
+            <figure class="drawing-card">
+
+                <a href="../images/thermal/thermal-test-setup.jpg"
+                   target="_blank">
+
+                    <img src="../images/thermal/thermal-test-setup.jpg"
+                         alt="Thermal measurement laboratory setup"
+                         loading="lazy">
+
+                </a>
+
+                <figcaption>
+
+                    <h3>
+                        Experimental Thermal Measurement Setup
+                    </h3>
+
+                    <p>
+                        Infrared camera and contact thermometer positioned
+                        to measure the heated metallic rods.
+                    </p>
+
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="drawing-card">
+
+                <a href="../images/thermal/copper-ir-60s.png"
+                   target="_blank">
+
+                    <img src="../images/thermal/copper-ir-60s.png"
+                         alt="Infrared thermal image of copper rod after 60 seconds of heating"
+                         loading="lazy">
+
+                </a>
+
+                <figcaption>
+
+                    <h3>
+                        Copper Rod — 60 s Heating
+                    </h3>
+
+                    <p>
+                        Infrared image of the copper rod after 60 seconds
+                        of heating, with the camera reporting approximately
+                        89.5 °F.
+                    </p>
+
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="drawing-card">
+
+                <a href="../images/thermal/aluminum-ir-60s.png"
+                   target="_blank">
+
+                    <img src="../images/thermal/aluminum-ir-60s.png"
+                         alt="Infrared thermal image of aluminum rod after 60 seconds of heating"
+                         loading="lazy">
+
+                </a>
+
+                <figcaption>
+
+                    <h3>
+                        Aluminum Rod — 60 s Heating
+                    </h3>
+
+                    <p>
+                        Infrared image of the aluminum rod after 60 seconds
+                        of heating, with the camera reporting approximately
+                        87.9 °F.
+                    </p>
+
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="drawing-card">
+
+                <a href="../images/thermal/stainless-steel-ir-60s.png"
+                   target="_blank">
+
+                    <img src="../images/thermal/stainless-steel-ir-60s.png"
+                         alt="Infrared thermal image of stainless steel rod after 60 seconds of heating"
+                         loading="lazy">
+
+                </a>
+
+                <figcaption>
+
+                    <h3>
+                        Stainless-Steel Rod — 60 s Heating
+                    </h3>
+
+                    <p>
+                        Infrared image of the stainless-steel rod after
+                        60 seconds of heating, with the camera reporting
+                        approximately 75.9 °F.
+                    </p>
+
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="drawing-card">
+
+                <a href="../images/thermal/digital-temperature-vs-time.jpg"
+                   target="_blank">
+
+                    <img src="../images/thermal/digital-temperature-vs-time.jpg"
+                         alt="Digital thermometer temperature versus time data"
+                         loading="lazy">
+
+                </a>
+
+                <figcaption>
+
+                    <h3>
+                        Digital Thermometer Temperature vs Time
+                    </h3>
+
+                    <p>
+                        Contact-temperature measurements and linear
+                        regression trends for copper, aluminum,
+                        and stainless steel.
+                    </p>
+
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="drawing-card">
+
+                <a href="../images/thermal/infrared-temperature-vs-time.jpg"
+                   target="_blank">
+
+                    <img src="../images/thermal/infrared-temperature-vs-time.jpg"
+                         alt="Infrared camera temperature versus time data"
+                         loading="lazy">
+
+                </a>
+
+                <figcaption>
+
+                    <h3>
+                        Infrared Camera Temperature vs Time
+                    </h3>
+
+                    <p>
+                        Infrared temperature measurements showing
+                        differences in observed heating behavior
+                        among the three materials.
+                    </p>
+
+                </figcaption>
+
+            </figure>
+
+
+            <figure class="drawing-card">
+
+                <a href="../images/thermal/infrared-error-vs-time.jpg"
+                   target="_blank">
+
+                    <img src="../images/thermal/infrared-error-vs-time.jpg"
+                         alt="Infrared measurement error relative to digital thermometer"
+                         loading="lazy">
+
+                </a>
+
+                <figcaption>
+
+                    <h3>
+                        Infrared Measurement Error
+                    </h3>
+
+                    <p>
+                        Difference between infrared-camera measurements
+                        and direct-contact thermometer readings as
+                        temperature increased.
+                    </p>
+
+                </figcaption>
+
+            </figure>
+
+
+        </div>
+
+        <p class="gallery-note">
+            Select any image to view the full-resolution version.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- ENGINEERING TAKEAWAYS -->
+<!-- ====================================================== -->
+
+<section class="projects">
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Engineering Takeaways
+        </h2>
+
+        <p>
+            The experiment demonstrated that measurement technique
+            can significantly influence experimental results. While
+            infrared thermography provides convenient non-contact
+            temperature measurement, surface emissivity and target
+            geometry must be considered when interpreting results.
+        </p>
+
+        <br>
+
+        <p>
+            The project also reinforced the importance of validating
+            one measurement method against another, analyzing
+            experimental uncertainty, and using quantitative data
+            analysis to distinguish material behavior from
+            measurement limitations.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- SKILLS -->
+<!-- ====================================================== -->
+
+<section>
+
+    <div class="project-container">
+
+        <h2 class="section-title">
+            Skills Demonstrated
+        </h2>
+
+        <div class="skill-tags">
+
+            <span>Experimental Testing</span>
+            <span>Infrared Thermography</span>
+            <span>Temperature Measurement</span>
+            <span>Instrumentation</span>
+            <span>Python</span>
+            <span>Linear Regression</span>
+            <span>Data Analysis</span>
+            <span>Error Analysis</span>
+            <span>Heat Transfer</span>
+            <span>Experimental Documentation</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- BACK -->
+<!-- ====================================================== -->
+
+<section>
+
+    <div class="project-container">
+
+        <a class="button"
+           href="../index.html#projects">
+            ← Back to Projects
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ====================================================== -->
+<!-- FOOTER -->
+<!-- ====================================================== -->
+
+<footer>
+    © 2026 Sugam Bhattarai
+</footer>
+
+
+</body>
+
+</html>
