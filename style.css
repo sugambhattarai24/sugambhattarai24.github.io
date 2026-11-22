@@ -606,3 +606,18 @@ nav {
     }
 
 }
+
+/* ====================================================== */
+/* FEA PROJECT TEMPORARY THUMBNAIL */
+/* ====================================================== */
+
+.project-thumbnail-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 24px;
+    color: #64748b;
+    font-weight: 700;
+    line-height: 1.5;
+}
